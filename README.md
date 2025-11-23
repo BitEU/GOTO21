@@ -1,12 +1,12 @@
-# UNIJACK
+# GOTO21
 
-UNIJACK is a text-based blackjack game written in C based off of [InsightBlackjack](https://github.com/YoannAubineau/InsightBlackjack).
+GOTO21 is a text-based blackjack game written in C based off of [InsightBlackjack](https://github.com/YoannAubineau/InsightBlackjack).
 
 ## Installation
 
 ### C Version
 
-The C version of UNIJACK can be compiled using either MinGW (GCC) or MSVC on Windows.
+The C version of GOTO21 can be compiled using either MinGW (GCC) or MSVC on Windows.
 It also supports cross-compilation for UNIVAC systems with proper BSS initialization.
 
 To build the C version:
@@ -31,17 +31,16 @@ To run the C version after building:
 blackjack.exe
 ```
 
-The program will prompt you for your name and then start the game with the UNIJACK ruleset
+The program will prompt you for your name and then start the game with the American ruleset
 using a single player with 100 starting chips.
 
 ### Select a ruleset
 
-UNIJACK comes with 4 slightly differents rulesets:
+GOTO21 comes with 3 slightly differents rulesets:
 
 * basic
 * european
 * american
-* UNIJACK
 
 **Basic** ruleset is single player only. It uses only one deck of 52 cards. Minimum bet is 1 chip and Blackjack payout ratio is 2:1. It is the most simple ruleset used by beginners.
 

@@ -1,11 +1,11 @@
 @echo off
-REM Build script for UNIJACK
+REM Build script for GOTO21
 REM Unified script for MSVC and MinGW compilation
 REM Supports Windows and UNIVAC cross-compilation
 
 echo.
 echo ========================================
-echo   UNIJACK - Build Script
+echo   GOTO21 - Build Script
 echo ========================================
 echo.
 
@@ -54,7 +54,7 @@ REM BUILD START
 REM ============================================================================
 :BUILD_START
 echo.
-echo Building UNIJACK...
+echo Building GOTO21...
 echo.
 
 REM Jump to the selected compiler build
@@ -221,7 +221,7 @@ if %ERRORLEVEL% EQU 0 (
     echo.
     echo Optimization level: MAXIMUM (-O3 + LTO + native CPU^)
     echo.
-    echo To run UNIJACK, type: blackjack.exe
+    echo To run GOTO21, type: blackjack.exe
     echo.
 ) else (
     echo.

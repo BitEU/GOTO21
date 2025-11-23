@@ -1,9 +1,16 @@
 /*
- * UNIJACK - Text-based Blackjack Game
- * Modern C implementation for Windows Console
- * Converted from Python implementation
- * 
- * Compiles with MSVC and MinGW
+ * Program Name: GOTO21
+ * Program Release Year: 2025
+ * Program Author: Steven S.
+ * Program Link: https://github.com/BitEU/GOTO21
+ *
+ * Original Name: InsightBlackjack
+ * Original Release Year: 2014
+ * Original Author: YoannAubineau
+ * Original Link: https://github.com/YoannAubineau/InsightBlackjack
+ * Original System: Python
+ *
+ * Major changes from original: Ported to C and added Windows Console/UNIVAC 1219 support
  */
 
 #ifndef BLACKJACK_H
